@@ -1,0 +1,29 @@
+body {
+	background-color: aqua;
+}
+
+#slide {
+	width: 512px;
+	height: 512px;
+	border: 3px solid #ccc;
+	margin: 0 auto;
+	position: relative;
+	font-family: serif;
+	overflow: hidden;
+}
+
+.slide__photo {
+	width: 512px;
+	height: 512px;
+	position: absolute;
+	transition: all ease 1s;
+	top: 0;
+	left: 0;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin: 60px auto 40px auto;
+}

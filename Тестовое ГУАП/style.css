@@ -1,0 +1,162 @@
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  line-height: 1;
+  background-color: #4b4a4a;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+q:before, q:after {
+  content: "";
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: blue;
+}
+a.active {
+  color: blue;
+}
+
+.header {
+  background-color: #202928;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.navbar h1 {
+  padding: 0 30px;
+  text-align: center;
+  color: blue;
+}
+.navbar h1 span {
+  color: #0ad4b2;
+}
+.navbar img {
+  width: 150px;
+  height: 150px;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 400px;
+}
+.nav-list p {
+  color: #2727f3;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 40px;
+  padding-left: 50px;
+  text-transform: uppercase;
+}
+
+.nav-link.active {
+  color: blue;
+}
+
+.nav-item h6 {
+  color: blue;
+  margin-left: 80px;
+  font-size: 30px;
+}
+.nav-item.dropdown {
+  margin-left: 30px;
+}
+
+.btn {
+  color: #2727f3;
+  border: 2px solid blue;
+  font-weight: bold;
+}
+.btn:hover {
+  color: #0acdd4;
+}
+
+.main-nav {
+  margin-top: 50px;
+}
+.main-nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container h2 {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #0d8688;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.container h3 {
+  color: #0d8688;
+  margin: 30px 0;
+}
+.container h4 {
+  color: #fff;
+}
+.container h5 {
+  color: #0d8688;
+}
+.container.ft {
+  background-color: #202928;
+}
+
+.col-lg-4.block {
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 2px solid blue;
+  -webkit-box-shadow: 5px 5px 2px #2b2bf5;
+          box-shadow: 5px 5px 2px #2b2bf5;
+}
+
+.col-lg {
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-align: left;
+}
+.col-lg.sm {
+  font-weight: 300;
+}
+.col-lg.sm i {
+  margin-right: 10px;
+}
+.col-lg span {
+  font-weight: bold;
+}

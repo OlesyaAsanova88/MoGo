@@ -1,0 +1,178 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+:root {
+   --color1: #05b1b1;
+   --color2: #52339a;
+
+}
+
+header,footer,section {
+   padding: 100px 0;
+}
+header {
+   padding: 200px 0;
+}
+
+header,footer {
+   background:url(img/pattern.png), var(--color1);
+background: url(img/pattern.png), -moz-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+background:url(img/pattern.png), -webkit-linear-gradient(left, var(--color1) 0%,var(--color2) 100%);
+background:url(img/pattern.png), linear-gradient(to right, var(--color1) 0%,var(--color2) 100%);
+filter:url(img/pattern.png), progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr='#7db9e8',GradientType=1 );
+background-size: contain;
+}
+
+.itd_play {
+   background-color: var(--color1);
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   margin: 30px auto;
+   transition: all 0.2s ease;
+}
+
+.itd_play:hover {
+   background-color: var(--color2);
+}
+
+.itd_triangle {
+   margin-right: -3px;
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-width: 10px 0px 10px 20px;
+   border-color: transparent transparent transparent var(--bs-white);
+}
+
+.btn-itd {
+   display: block;
+   max-width: 200px;
+   margin: 0 auto;
+   padding: 8px 30px;
+   color: var(--bs-white);
+   background-color: var(--color2);
+}
+
+.btn-itd:hover {
+   color: var(--bs-white);
+   background-color: var(--color1);
+}
+
+.embed-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   height: 0;
+   overflow: hidden;
+   max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.color1 {
+   color: var(--color1)
+}
+
+.color2 {
+   color: var(--color2)
+}
+
+.bg1 {
+   background-color: var(--color1)
+}
+
+.bg2 {
+   background-color: var(--color2)
+}
+
+.about {
+   background-color: #eee;
+}
+.about i {
+   font-size: 25px;
+   color: var(--color2);
+}
+.itd_circle {
+   margin: 0 auto 15px;
+   width: 70px;
+   height: 70px;
+   border: 3px solid var(--color2);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.line {
+   width: 100px;
+   height: 3px;
+   background-color: var(--color1);
+   margin: 15px auto 30px;
+}
+
+.forwhom h5 {
+   padding: 50px;
+   border: 3px solid var(--color1);
+}
+
+.shedule {
+   background-color: #eee;
+}
+
+.accordion-button:not(.collapsed) {
+   color: var(--bs-white);
+   background-color:var(--color2);
+}
+
+.learning h5 {
+   padding: 25px;
+   border: 3px solid var(--color1);
+}
+
+.author {
+   background-color: #eee;
+   padding-bottom: 0;
+}
+
+.itd_img {
+   max-width: 260px;
+}
+
+.rounded {
+   border-radius: 50% ! important;
+   border: 3px solid var(--color1);
+}
+
+.buy {
+   background-color: #eee;  
+   position: relative;
+}
+
+.d-grid {
+   position: absolute;
+   top: 560px;
+   left: 200px;
+}
+
+.btn-itd2 {
+   display: block;
+   max-width: 280px;
+   margin: 0 auto;
+   padding: 8px 50px;
+   color: var(--bs-white);
+   background-color: var(--color2);
+}
+
+.btn-itd2:hover {
+   color: var(--bs-white);
+   background-color: var(--color1);
+}

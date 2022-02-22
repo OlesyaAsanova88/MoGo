@@ -1,0 +1,9 @@
+.shedule {
+   padding: 100px 0;
+   background-color: #eee;
+}
+
+.accordion-button:not(.collapsed) {
+   color: #fff;
+   background:  linear-gradient(90deg, #2056ae 0%, #2056ae 20%, #4e47a7 40%, #9a2e9c 60%, #c62072 80%);
+}

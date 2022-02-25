@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+html,
+body {
+   position: relative;
+   height: 100%;
+}
+
+body {
+   background: #fff;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   color: #000;
+   margin: 0;
+   padding: 0;
+}
+
+.swiper {
+   width: 100%;
+   height: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.swiper-slide {
+   
+   text-align: center;
+   font-size: 16px;
+   
+   background: #fff;
+   height: calc((100% - 10px) / 5) !important;
+
+   /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center;
+}
+
+.swiper-date {
+   color: #fff;
+   background: linear-gradient(90deg, #2056ae 0%, #2056ae 20%, #4e47a7 40%, #9a2e9c 60%, #c62072 80%);
+}
+
+.strong {
+   font-weight: bold;
+}
+
+.strong:hover {
+   color: #eb1546;
+}
+
+.basic:hover{
+   color: #005aaa;
+}
+
+.rating:hover {
+   color: #A32B9B;
+}
+
+.date:hover  {
+   transform: translate(5px, -5px);
+   transition: 0.2s linear;
+}
+
+
+
+   
+ 

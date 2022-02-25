@@ -1,0 +1,42 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.slider__wrapper {
+   margin: 0 auto;
+   overflow: scroll;  
+}
+
+ .table {
+   padding: 10px; 
+}
+
+td {
+   padding: 30px;
+}
+.text:hover {
+   color: #005aaa;
+}
+.strong {
+   font-weight: bold;
+}
+.strong:hover {
+   color: #eb1546;
+}
+.rating:hover {
+   color: #A32B9B;
+}
+.number {
+   color: #fff;
+   background-image: linear-gradient(90deg, #2056ae 0%, #2056ae 20%, #4e47a7 40%, #9a2e9c 60%, #c62072 80%);
+   
+}
+
+.number td:hover {
+   transform: translate(5px, -5px);
+   transition: 0.2s linear;
+}
